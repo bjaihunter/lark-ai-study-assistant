@@ -1,0 +1,20 @@
+{
+  "name": "lark-ai-study-assistant-backend",
+  "version": "0.1.0",
+  "description": "飞书 AI 学习助手后端：文档解析 + 测验/闪卡/摘要生成（DeepSeek）",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mammoth": "^1.8.0",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.67.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
