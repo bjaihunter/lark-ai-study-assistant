@@ -1,0 +1,24 @@
+{
+  "name": "lark-ai-study-assistant-plugin",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "飞书 AI 学习助手插件：多维表格资料 → AI 测验/闪卡/摘要",
+  "scripts": {
+    "dev": "vite",
+    "start": "npm run dev",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "output": "dist",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jquery": "^3.5.16",
+    "sass": "^1.63.6",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.4"
+  },
+  "dependencies": {
+    "@lark-base-open/js-sdk": "^0.5.0",
+    "jquery": "^3.7.1"
+  }
+}
